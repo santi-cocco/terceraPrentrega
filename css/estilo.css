@@ -99,8 +99,6 @@ main {
     text-align: center;
     padding: 30px 30px;
 }
-
-
 /*inicio de pagina de Inicio*/
 #contenedorInicio{
     background-color: rgb(2, 2, 2);
@@ -130,7 +128,6 @@ main {
     margin: auto;
     padding: 10px 10px;
 }
-
 .imagenTienda:hover {
     padding: 15px 15px;
     border-style: double;
@@ -147,7 +144,6 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;        
 }
-
 #contenedorInicioPrincipalSegundo #fotos{
     width: 650px;
     height: auto;
@@ -157,7 +153,6 @@ main {
     flex-wrap: wrap;  
 
 }
-
 #contenedorInicioPrincipalSegundo .imagenInicio{
     width: 180px;
     height: 150px;
@@ -175,7 +170,6 @@ main {
     cursor: pointer;
     transition: all 0,6s ease 0s;
 }
-
 #contenedorInicioPrincipalSegundo .subtitulo {
     background-color: #a4a4a484;
     font-family: 'Permanent Marker', cursive;
@@ -186,7 +180,6 @@ main {
     justify-content: center;
 
 }
-
 #contenedorInicioPrincipalSegundo .subtitulo2 {
     background-color: #a4a4a484;
     font-family: 'Permanent Marker', cursive;
@@ -196,14 +189,7 @@ main {
     padding: 10px 10px;
 }
 /*fin de segunda seccion de imagenes del Inicio*/
-
-
 /*Fin de pagina de inicio*/
-
-footer{
-    background-color: green;
-}
-
     /*Inicio de la pagina Actividades*/
     /*Subtitulo Actividades*/
     .subtituloPrincipal{
@@ -216,7 +202,6 @@ footer{
         border-style: groove;
         border-radius: 50px;
     }
-
 /* Estilos de la galería de tarjetas */
 .card-container {
     display: grid;
@@ -224,14 +209,12 @@ footer{
     gap: 15px;
     justify-items: center;
 }
-
 .maincontainer {
     position: relative;
     width: 250px;
     height: 320px;
     display: flex;
 }
-
 .thecard {
     position: absolute;
     width: 100%;
@@ -243,7 +226,6 @@ footer{
 .thecard:hover {
     transform: rotateY(180deg);
 }
-
 .thefront {
     position: absolute;
     width: 100%;
@@ -257,7 +239,6 @@ footer{
     padding: 20px;
     border-radius: 10px;
 }
-
 .theback {
     position: absolute;
     width: 100%;
@@ -272,7 +253,6 @@ footer{
     padding: 20px;
     border-radius: 10px;
 }
-
 /* Estilos de la imagen */
 .imagenActividades {
     width: 100%;
@@ -280,7 +260,6 @@ footer{
     display: block;
     border-radius: 10px;
 }
-
 /* Estilos del título y texto de la tarjeta */
 .card-title {
     background-color: #00000083;
@@ -291,12 +270,10 @@ footer{
     border-radius: 10px;
     text-align: center;
 }
-
 .actividadesTexto {
     margin-top: 10px;
     line-height: 1.4;
 }
-
 /* Estilos de las tarjetas al hacer hover */
 .card:hover {
     background-color: grey;
@@ -306,7 +283,6 @@ footer{
     transition: all 1s ease;
 }
 /* Fin de la pagina "actividades" */
-
 /*Inicio de la pagina "Horario de clases"*/
 /*Estilo de tabla*/
 #tabla {
@@ -322,10 +298,8 @@ footer{
     padding: 3rem;
     border-radius: 10px;
 }
-
 /* Ajusta el tamaño de fuente y otros estilos según sea necesario */
 /*Fin de estilo de tabla*/
-
 /*Estilos de celdas*/
 th{ 
     background-color: rgba(11, 238, 61, 0.356);
@@ -341,8 +315,6 @@ th{
     max-width: 15%; /* Establece un ancho máximo para las celdas de hora */
 }
 /*Fin de estilos de celdas*/
-
-
 /*Estilo de la descripcion*/
 section .horariodeclases{
     background-color:rgba(5, 243, 5, 0.486);
@@ -352,9 +324,6 @@ section .horariodeclases{
     border: 3px groove;
 }
 /*Fin de Estilo de la pestaña "Horario de clases"*/
-
-
-
 /*Inicio de la pagina de "nosotros"*/
 /*Imagen principal de la pagina de "nosotros"*/
 .imagenNosotros{
@@ -365,8 +334,6 @@ section .horariodeclases{
     
 }
 /*primer parrafo de la pagina de "nosotros"*/
-
-
 .subtituloNostros {
     display: flex;
     font-size: 14px;
@@ -394,7 +361,6 @@ section .horariodeclases{
     padding: 20px;
     border-radius: 10px;
 }
-
 .accordion-item {
     background-color: #115511; 
     border-radius: 5px;
@@ -403,28 +369,19 @@ section .horariodeclases{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     background:var(--border-color);
 }
-
 .accordion-button {
     text-align: center;
     padding: 10px;
     cursor: pointer;
     background:var(--border-color);
 }
-
 .accordion-collapse {
     background-color: #07070770;
     border-radius: 5px;
     margin-top: 10px;
     padding: 10px;
 }
-
-
-
-
-
-
 /*Fin de la pagina de "nosotros"*/
-
 /*Inicio de la pagina de "Prueba"*/
 /*Parrafo de la pestaña de pase de prueba*/
 .textoPrueba{
@@ -444,7 +401,6 @@ section .horariodeclases{
     color: #fff;
     background: var(--border-color);
 }
-
 #legend {
     border-style: double;
     font-size: 40px;
@@ -453,13 +409,11 @@ section .horariodeclases{
     padding: 20px;
     text-align: center;
 }
-
 .form-label {
     font-size: 20px;
     text-decoration: underline;
     padding: 10px;
 }
-
 .form-input {
     background-color: rgb(243, 243, 243);
     width: 100%;
@@ -468,7 +422,6 @@ section .horariodeclases{
     margin-bottom: 10px;
     border: 2px solid black;
 }
-
 .btn {
     background-color: rgb(12, 233, 45);
     border-radius: 5px;
@@ -477,7 +430,6 @@ section .horariodeclases{
     box-shadow: 0 0 5px rgb(6, 239, 130), 0 0 25px rgb(6, 239, 130);
     cursor: pointer;
 }
-
 .btn:hover {
     color: #fff;
     box-shadow: 0 0 5px rgb(0, 255, 72),
@@ -487,7 +439,6 @@ section .horariodeclases{
     0 0 200px rgb(0, 255, 72);
 }
 /*Fin del formulario de la pestaña prueba*/
-
 /*Inicio de la pagina de tienda*/
 .TextoBoton{
     padding: 5px;
@@ -521,14 +472,12 @@ section .horariodeclases{
         0 0 25px, 0 0 50px rgb(0, 255, 72),
         0 0 100px rgb(0, 255, 72), 0 0 200px rgb(0, 255, 72);
 }
-
 #tienda {
     background-color: rgb(0, 0, 0);
     width: 100%;
     padding: 20px;
     text-align: center;
 }
-
 .pack {
     background:var(--border-color);
     border: 2px dashed #fff;
@@ -542,26 +491,13 @@ footer{
     background:var(--border-color);
     display: flex;
     width: 100%;
+    background-color: #333;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+    
 }
-/*Logo*/
-#logofooter {
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #58555559;
-    width:25%;
-    background:var(--border-color);
-}
-
 /*Contenido de la navegacion*/
-
-
-
-
-
-
-
 footer #mapa{
     height: 100%;
     width: 100%;
@@ -571,17 +507,6 @@ footer #mapa{
     padding-right: 15px;
     border-radius: 30px;
 }
-
-.subtituloFooter{
-    background-color: #0000004c;
-    width: 600px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 10px;
-    border-radius: 10px;
-}
 .redes{
     display: flex;
     flex-direction: row;
@@ -590,63 +515,49 @@ footer #mapa{
     justify-content: space-evenly;
 
 }
-.iconos{
+.redes{
     display:flex;
     width: 100%;
     font-size: 40px;
     justify-content: space-evenly;
 }
 
-.iconos .facebook {
+.redes .facebook {
     color: blue;
     padding-top: 3px;
     padding-bottom: 3px;
 }
 
-.iconos .instagram {
+.instagram {
     color: #fff;
     padding-top: 3px;
     padding-bottom: 3px;
 }
 
-.iconos .whatsapp {
+.whatsapp {
     color: #04fb3e;
     padding-top: 3px;
     padding-bottom: 3px;
 }
 
-.iconos a:hover {
+.redes a:hover {
     transform: scale(1.5);
 }
 
-
-
 /**************************/
-
 /*Lo hacemos responsive*/
 /*Vista tablet*/
 /*768px hasta 1023px aproximadamente*/
-
-footer {
-    display: none; /* Oculta el footer */
-    background-color: #333;
-    color: #000000;
-    padding: 20px 0;
-    text-align: center;
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
-
 #mapa {
     width: 100%;
     height: 500px; 
     border: none;
 }
-
 nav ul {
     list-style: none;
     padding: 0;
@@ -656,21 +567,16 @@ nav ul li {
     display: inline-block;
     margin-right: 20px;
 }
-
 a {
     color: #070707;
     text-decoration: none;
     
 }
-
-
-
 @media (max-width:710px) {
     .card{
         width: 100%;
     }
 }
-
 /* Estilos responsivos para pantallas pequeñas */
 @media (min-width: 492px) {
     /* Muestra el footer cuando el ancho de la pantalla sea mayor o igual a 576px */
@@ -683,10 +589,7 @@ a {
         flex-direction: row;
         flex-wrap: wrap;  
     
-    }
-    
-    
-    
+    } 
     footer {
         display: block;
     }
@@ -698,37 +601,8 @@ a {
         justify-content: space-evenly;
     
     }
-    .iconos{
-        display:flex;
-        width: 100%;
-        font-size: 40px;
-        justify-content: space-evenly;
-    }
-    
-    .iconos .facebook {
-        color: blue;
-        padding-top: 3px;
-        padding-bottom: 3px;
-    }
-    
-    .iconos .instagram {
-        color: #fff;
-        padding-top: 3px;
-        padding-bottom: 3px;
-    }
-    
-    .iconos .whatsapp {
-        color: #04fb3e;
-        padding-top: 3px;
-        padding-bottom: 3px;
-    }
-    
-    .iconos a:hover {
-        transform: scale(1.5);
-    }
+   
 }
-
-
 @media (max-width: 400px) {
     #titulo {
         display: none; /* Oculta el elemento con id "titulo" */
