@@ -20,7 +20,7 @@
 nav ul li {
     list-style: none;
     display: inline-block;
-    background: $color-border;
+    background: var(--border-color);
     border-radius: 30px;
     padding: 16px;
   }

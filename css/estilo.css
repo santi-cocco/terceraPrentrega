@@ -23,7 +23,7 @@
 nav ul li {
   list-style: none;
   display: inline-block;
-  background: linear-gradient();
+  background: var(--border-color);
   border-radius: 30px;
   padding: 16px;
 }
@@ -93,7 +93,7 @@ main {
 #titulo {
   font-family: "Permanent Marker", cursive, sans-serif;
   text-align: center;
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
   margin-top: 15px;
   margin-left: 100px;
   margin-right: 100px;
@@ -226,7 +226,7 @@ a {
 /*Inicio Footer*/
 /* line 3, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/_footer.scss */
 footer {
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
   display: flex;
   width: 100%;
   background-color: #333;
@@ -251,7 +251,7 @@ footer #mapa {
 .listas {
   border: 3px solid;
   border-radius: 20px;
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
   padding: 1rem;
   display: flex;
   flex-direction: row;
@@ -275,7 +275,7 @@ footer #mapa {
   margin: 10px 10px;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
 }
 
 /* line 30, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/_acordion.scss */
@@ -283,7 +283,7 @@ footer #mapa {
   text-align: center;
   padding: 10px;
   cursor: pointer;
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
 }
 
 /* line 37, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/_acordion.scss */
@@ -369,14 +369,14 @@ th {
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
 }
 
 /* line 13, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/_formulario.scss */
 #legend {
   border-style: double;
   font-size: 40px;
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
   border-radius: 10px;
   padding: 20px;
   text-align: center;
@@ -429,18 +429,18 @@ section .horariodeclases {
   border-radius: 10px;
   padding: 20px 20px;
   border-style: outset;
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
 }
 
 /*Inicio de la pagina de tienda*/
 /* line 36, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/_texto.scss */
 .TextoBoton {
   padding: 5px;
-  color: #000000ab;
+  color: #faf4f477;
   font-family: sans-serif;
   font-size: larger;
   margin: 5px  0px;
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
   border-radius: 10px;
 }
 
@@ -450,7 +450,7 @@ section .horariodeclases {
   height: 85px;
   border-radius: 10px;
   border-style: groove;
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
   width: auto;
   padding: 2px;
 }
@@ -487,7 +487,7 @@ section .horariodeclases {
   width: 10rem;
   height: 10rem;
   border-radius: 25px;
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
 }
 
 /*Contenido de la navegacion*/
@@ -567,7 +567,7 @@ section .horariodeclases {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
   color: #333;
   text-align: center;
   font-family: sans-serif;
@@ -582,7 +582,7 @@ section .horariodeclases {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
   color: #333;
   transform: rotateY(180deg);
   text-align: center;
@@ -598,10 +598,11 @@ section .horariodeclases {
   font-family: "Arial", sans-serif;
   margin-top: 10px;
   line-height: 1.4;
+  color: #fafafa;
 }
 
 /* Estilos de las tarjetas al hacer hover */
-/* line 66, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/_card.scss */
+/* line 67, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/_card.scss */
 .card:hover {
   background-color: grey;
   color: white;
@@ -624,7 +625,7 @@ section .horariodeclases {
   border-radius: 50px;
   height: 400px;
   width: 80%;
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
   border-style: double;
 }
 
@@ -684,7 +685,7 @@ section .horariodeclases {
 .imagenInicio:hover {
   padding: 15px 15px;
   border-style: groove;
-  background: linear-gradient(to right, green -50%, yellow 70%);
+  background: linear-gradient(to right, green -50%, #414123 90%);
   border-radius: 30px;
   cursor: pointer;
   transition: all 0,6s ease 0s;
