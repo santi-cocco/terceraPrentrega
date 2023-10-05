@@ -1,0 +1,28 @@
+.btn {
+    background-color: rgb(12, 233, 45);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgb(6, 239, 130), 0 0 25px rgb(6, 239, 130);
+    cursor: pointer;
+  
+    &:hover {
+      color: #fff;
+      box-shadow: 0 0 5px rgb(0, 255, 72), 0 0 25px rgb(0, 255, 72), 0 0 50px rgb(0, 255, 72), 0 0 100px rgb(0, 255, 72), 0 0 200px rgb(0, 255, 72);
+    }
+  }
+  
+  /*Fin del formulario de la pestaña prueba*/
+ /*boton de la pestaña tienda*/
+  .boton {
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 25px;
+    margin: 50px 0px;
+    box-shadow: 0 0 5px rgb(6, 239, 130) 0 0 25px rgb(6, 239, 130);
+  
+    &:hover {
+      box-shadow: 0 0 5px rgb(0, 255, 72), 0 0 25px, 0 0 50px rgb(0, 255, 72), 0 0 100px rgb(0, 255, 72), 0 0 200px rgb(0, 255, 72);
+    }
+  }
+  

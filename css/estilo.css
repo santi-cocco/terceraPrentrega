@@ -1,621 +1,754 @@
-*{
-    margin: 0;
-    padding: 0;  
-    box-sizing: border-box; 
+@charset "UTF-8";
+/* line 2, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 /* header */
+/* line 8, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .encabezado {
-    display: flex; 
-    justify-content: space-evenly;  
-    align-items:center;
-    height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
 }
-.navbar-toggler{
-    background:var(--border-color);
+
+/* line 14, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.navbar-toggler {
+  background: var(--border-color);
 }
+
+/* line 17, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 :root {
-    --border-color: linear-gradient(
+  --border-color: linear-gradient(
     to right,
     green -50%,
     yellow 70%)
 
+;
 }
+
 /*logo*/
+/* line 25, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .logo {
-    height: 85px;
-    border-radius: 10px;
-    border-style: groove;
-    background:var(--border-color);
-    width: auto;
-    padding: 2px;
+  height: 85px;
+  border-radius: 10px;
+  border-style: groove;
+  background: var(--border-color);
+  width: auto;
+  padding: 2px;
 }
 
+/* line 34, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .logo:hover {
-    padding: 10px 25px;
-    border-style: double ;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: all 0,6s ease 0s;
+  padding: 10px 25px;
+  border-style: double;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0,6s ease 0s;
 }
- /*navegador*/
+
+/*navegador*/
+/* line 42, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 nav ul li {
-    list-style: none;
-    display: inline-block;
-    background:var(--border-color);
-    border-radius: 30px;
-    padding: 16px;
+  list-style: none;
+  display: inline-block;
+  background: var(--border-color);
+  border-radius: 30px;
+  padding: 16px;
 }
+
+/* line 49, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 :root {
-    --border-color: linear-gradient(
+  --border-color: linear-gradient(
     to right,
     green -50%,
     yellow 70%)
 
+;
 }
-nav ul li a:hover{
-    color: #000000ed;
-    padding: 10px 25px;
-    background-color: #f5000032;
-    border-style: groove;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0,3s ease 0s;
+
+/* line 56, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+nav ul li a:hover {
+  color: #000000ed;
+  padding: 10px 25px;
+  background-color: #f5000032;
+  border-style: groove;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0,3s ease 0s;
 }
+
+/* line 65, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 a {
-    text-decoration: double;
-    text-transform: uppercase;
-    font-weight: bold;
-    color:rgb(0, 0, 0)
+  text-decoration: double;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
 }
+
 /* titulo*/
+/* line 72, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 #titulo {
-    font-family: 'Permanent Marker', cursive;
-    text-align: center;
-    background:var(--border-color);  
-    margin-top: 15px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 10px;
-    color: #fff;
-    padding: 10px;
-    background-color: #000000;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  background: var(--border-color);
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  background-color: #000000;
 }
+
+/* line 84, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 :root {
-    --border-color: linear-gradient(
+  --border-color: linear-gradient(
     to right,
     green 0%,
     yellow 100%)
 
+;
 }
+
 /* body */
-body{
-    background-color: #000000
+/* line 92, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+body {
+  background-color: #000000;
 }
 
 /*main */
+/* line 97, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 main {
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 30px 30px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 30px 30px;
 }
+
 /*inicio de pagina de Inicio*/
-#contenedorInicio{
-    background-color: rgb(2, 2, 2);
-    justify-content: center;
-    align-items: center;
+/* line 104, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+#contenedorInicio {
+  background-color: #020202;
+  justify-content: center;
+  align-items: center;
 }
+
 /*Primer seccion Imagen del Inicio*/
-.contenedorInicioPrincipal{
-    background-color: rgb(0, 0, 0);
-    height: 600px;
-    width: 100%;
+/* line 110, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.contenedorInicioPrincipal {
+  background-color: black;
+  height: 600px;
+  width: 100%;
 }
-.contenedorInicioPrincipal a .imagenTienda{
-    display: inline-flex;
-    border-radius: 50px;
-    height: 400px;
-    width: 80%;
-    background:var(--border-color);
-    border-style: double;
+
+/* line 115, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.contenedorInicioPrincipal a .imagenTienda {
+  display: inline-flex;
+  border-radius: 50px;
+  height: 400px;
+  width: 80%;
+  background: var(--border-color);
+  border-style: double;
 }
+
+/* line 123, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .contenedorInicioPrincipal .subtitulo1 {
-    width: 400px;
-    background-color: #a4a4a484;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 25px;
-    border-radius: 20%;
-    margin: auto;
-    padding: 10px 10px;
+  width: 400px;
+  background-color: #a4a4a484;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px;
+  border-radius: 20%;
+  margin: auto;
+  padding: 10px 10px;
 }
+
+/* line 132, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .imagenTienda:hover {
-    padding: 15px 15px;
-    border-style: double;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: all 0,6s ease 0s;
+  padding: 15px 15px;
+  border-style: double;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0,6s ease 0s;
 }
+
 /*Fin Primer Imagen del Inicio*/
 /*segunda seccion de imagenes del Inicio*/
-#contenedorInicioPrincipalSegundo{
-    display: inline-flex;
-    width: 100%;
-    height: max-content;
-    flex-wrap: wrap;
-    justify-content: space-evenly;        
+/* line 141, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+#contenedorInicioPrincipalSegundo {
+  display: inline-flex;
+  width: 100%;
+  height: max-content;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-#contenedorInicioPrincipalSegundo #fotos{
-    width: 650px;
-    height: auto;
-    display: inline-flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;  
 
+/* line 148, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+#contenedorInicioPrincipalSegundo #fotos {
+  width: 650px;
+  height: auto;
+  display: inline-flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-#contenedorInicioPrincipalSegundo .imagenInicio{
-    width: 180px;
-    height: 150px;
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    border-radius: 50px;
+
+/* line 157, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+#contenedorInicioPrincipalSegundo .imagenInicio {
+  width: 180px;
+  height: 150px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-radius: 50px;
 }
+
+/* line 166, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .imagenInicio:hover {
-    padding: 15px 15px;
-    border-style: groove ;
-    background:var(--border-color);
-    border-radius: 30px;
-    cursor: pointer;
-    transition: all 0,6s ease 0s;
+  padding: 15px 15px;
+  border-style: groove;
+  background: var(--border-color);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0,6s ease 0s;
 }
-#contenedorInicioPrincipalSegundo .subtitulo {
-    background-color: #a4a4a484;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 15px;
-    border-radius: 20%;
-    margin: auto;
-    padding: 10px 10px;
-    justify-content: center;
 
+/* line 174, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+#contenedorInicioPrincipalSegundo .subtitulo {
+  background-color: #a4a4a484;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 15px;
+  border-radius: 20%;
+  margin: auto;
+  padding: 10px 10px;
+  justify-content: center;
 }
+
+/* line 184, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 #contenedorInicioPrincipalSegundo .subtitulo2 {
-    background-color: #a4a4a484;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 15px;
-    border-radius: 20%;
-    margin: auto;
-    padding: 10px 10px;
+  background-color: #a4a4a484;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 15px;
+  border-radius: 20%;
+  margin: auto;
+  padding: 10px 10px;
 }
+
 /*fin de segunda seccion de imagenes del Inicio*/
 /*Fin de pagina de inicio*/
-    /*Inicio de la pagina Actividades*/
-    /*Subtitulo Actividades*/
-    .subtituloPrincipal{
-        background-color: rgba(240, 255, 255, 0.785);
-        text-align: center;
-        color: #000000;
-        text-decoration: underline;
-        padding: 10px 10px;
-        border: #000000;
-        border-style: groove;
-        border-radius: 50px;
-    }
-/* Estilos de la galería de tarjetas */
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-    justify-items: center;
-}
-.maincontainer {
-    position: relative;
-    width: 250px;
-    height: 320px;
-    display: flex;
-}
-.thecard {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 1s ease;
+/*Inicio de la pagina Actividades*/
+/*Subtitulo Actividades*/
+/* line 196, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.subtituloPrincipal {
+  background-color: rgba(240, 255, 255, 0.785);
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  padding: 10px 10px;
+  border: #000000;
+  border-style: groove;
+  border-radius: 50px;
 }
 
+/* Estilos de la galería de tarjetas */
+/* line 207, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  justify-items: center;
+}
+
+/* line 213, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.maincontainer {
+  position: relative;
+  width: 250px;
+  height: 320px;
+  display: flex;
+}
+
+/* line 219, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.thecard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+
+/* line 227, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .thecard:hover {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
+
+/* line 230, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .thefront {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    background: var(--border-color);
-    color: #333;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 18px;
-    padding: 20px;
-    border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: var(--border-color);
+  color: #333;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 10px;
 }
+
+/* line 243, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .theback {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    background: var(--border-color);
-    color: #333;
-    transform: rotateY(180deg);
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 18px;
-    padding: 20px;
-    border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: var(--border-color);
+  color: #333;
+  transform: rotateY(180deg);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 10px;
 }
+
 /* Estilos de la imagen */
+/* line 258, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .imagenActividades {
-    width: 100%;
-    height: 100%;
-    display: block;
-    border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 10px;
 }
+
 /* Estilos del título y texto de la tarjeta */
+/* line 265, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .card-title {
-    background-color: #00000083;
-    color: #fff !important;
-    padding: none;
-    border: #030303 3px groove;
-    font-size: 24px;
-    border-radius: 10px;
-    text-align: center;
+  background-color: #00000083;
+  color: #fff !important;
+  padding: none;
+  border: #030303 3px groove;
+  font-size: 24px;
+  border-radius: 10px;
+  text-align: center;
 }
+
+/* line 274, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .actividadesTexto {
-    margin-top: 10px;
-    line-height: 1.4;
+  margin-top: 10px;
+  line-height: 1.4;
 }
+
 /* Estilos de las tarjetas al hacer hover */
+/* line 279, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .card:hover {
-    background-color: grey;
-    color: white;
-    cursor: pointer;
-    transform: scale(1.04);
-    transition: all 1s ease;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.04);
+  transition: all 1s ease;
 }
+
 /* Fin de la pagina "actividades" */
 /*Inicio de la pagina "Horario de clases"*/
 /*Estilo de tabla*/
+/* line 289, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 #tabla {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-color: rgba(9, 248, 37, 0.725);
-    border-style: ridge;
-    background-color: rgba(0, 0, 0, 0.574);
-    font-style: italic;    
-    padding: 3rem;
-    border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-color: rgba(9, 248, 37, 0.725);
+  border-style: ridge;
+  background-color: rgba(0, 0, 0, 0.574);
+  font-style: italic;
+  padding: 3rem;
+  border-radius: 10px;
 }
+
 /* Ajusta el tamaño de fuente y otros estilos según sea necesario */
 /*Fin de estilo de tabla*/
 /*Estilos de celdas*/
-th{ 
-    background-color: rgba(11, 238, 61, 0.356);
-    padding: 1rem;
-    border-radius: 15px;
-    width: 10%; /* Establece un ancho relativo para las columnas de encabezado */
-    max-width: 15%; /* Establece un ancho máximo para las columnas de encabezado */
+/* line 305, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+th {
+  background-color: rgba(11, 238, 61, 0.356);
+  padding: 1rem;
+  border-radius: 15px;
+  width: 10%;
+  /* Establece un ancho relativo para las columnas de encabezado */
+  max-width: 15%;
+  /* Establece un ancho máximo para las columnas de encabezado */
 }
 
+/* line 313, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .hora {
-    background-color: rgba(51, 68, 68, 0.325);
-    width: 10%; /* Establece un ancho relativo para las celdas de hora */
-    max-width: 15%; /* Establece un ancho máximo para las celdas de hora */
+  background-color: rgba(51, 68, 68, 0.325);
+  width: 10%;
+  /* Establece un ancho relativo para las celdas de hora */
+  max-width: 15%;
+  /* Establece un ancho máximo para las celdas de hora */
 }
+
 /*Fin de estilos de celdas*/
 /*Estilo de la descripcion*/
-section .horariodeclases{
-    background-color:rgba(5, 243, 5, 0.486);
-    padding: 10px;
-    width: 100%;
-    height: auto;
-    border: 3px groove;
+/* line 320, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+section .horariodeclases {
+  background-color: rgba(5, 243, 5, 0.486);
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  border: 3px groove;
 }
+
 /*Fin de Estilo de la pestaña "Horario de clases"*/
 /*Inicio de la pagina de "nosotros"*/
 /*Imagen principal de la pagina de "nosotros"*/
-.imagenNosotros{
-    width:20%;
-    height: auto;
-    border: #fff 4px solid;
-    border-radius: 40px;
-    
+/* line 330, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.imagenNosotros {
+  width: 20%;
+  height: auto;
+  border: #fff 4px solid;
+  border-radius: 40px;
 }
+
 /*primer parrafo de la pagina de "nosotros"*/
+/* line 338, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .subtituloNostros {
-    display: flex;
-    font-size: 14px;
-    text-decoration: underline;
-    text-transform: uppercase;
-    font-family:cursive;
-    justify-content: flex-start;
-    
-    
+  display: flex;
+  font-size: 14px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: cursive;
+  justify-content: flex-start;
 }
-.listas{
-    border: 3px solid;
-    border-radius: 20px;
-    background: var(--border-color);
-    padding: 1rem; ;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+
+/* line 348, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.listas {
+  border: 3px solid;
+  border-radius: 20px;
+  background: var(--border-color);
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
+
+/* line 358, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .container {
-    max-width: 600px;
-    margin: 0 auto; 
-    background-color: #225522; 
-    padding: 20px;
-    border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #225522;
+  padding: 20px;
+  border-radius: 10px;
 }
+
+/* line 365, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .accordion-item {
-    background-color: #115511; 
-    border-radius: 5px;
-    margin: 10px 10px;
-    padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    background:var(--border-color);
+  background-color: #115511;
+  border-radius: 5px;
+  margin: 10px 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background: var(--border-color);
 }
+
+/* line 373, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .accordion-button {
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-    background:var(--border-color);
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  background: var(--border-color);
 }
+
+/* line 379, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .accordion-collapse {
-    background-color: #07070770;
-    border-radius: 5px;
-    margin-top: 10px;
-    padding: 10px;
+  background-color: #07070770;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
 }
+
 /*Fin de la pagina de "nosotros"*/
 /*Inicio de la pagina de "Prueba"*/
 /*Parrafo de la pestaña de pase de prueba*/
-.textoPrueba{
-    font-size: 25px;
-    border-radius: 10px;
-    padding: 20px 20px;
-    border-style: outset;
-    background:var(--border-color);  
+/* line 388, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.textoPrueba {
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  border-style: outset;
+  background: var(--border-color);
 }
+
 /*Formulario de la pestaña prueba*/
+/* line 396, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .form-group {
-    padding: 10px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-    background: var(--border-color);
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background: var(--border-color);
 }
+
+/* line 405, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 #legend {
-    border-style: double;
-    font-size: 40px;
-    background: var(--border-color);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
+  border-style: double;
+  font-size: 40px;
+  background: var(--border-color);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
 }
+
+/* line 413, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .form-label {
-    font-size: 20px;
-    text-decoration: underline;
-    padding: 10px;
+  font-size: 20px;
+  text-decoration: underline;
+  padding: 10px;
 }
+
+/* line 418, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .form-input {
-    background-color: rgb(243, 243, 243);
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    border: 2px solid black;
+  background-color: #f3f3f3;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 2px solid black;
 }
+
+/* line 426, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .btn {
-    background-color: rgb(12, 233, 45);
-    border-radius: 5px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 0 5px rgb(6, 239, 130), 0 0 25px rgb(6, 239, 130);
-    cursor: pointer;
+  background-color: #0ce92d;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 5px #06ef82, 0 0 25px #06ef82;
+  cursor: pointer;
 }
+
+/* line 434, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .btn:hover {
-    color: #fff;
-    box-shadow: 0 0 5px rgb(0, 255, 72),
-    0 0 25px rgb(0, 255, 72),
-    0 0 50px rgb(0, 255, 72),
-    0 0 100px rgb(0, 255, 72),
-    0 0 200px rgb(0, 255, 72);
+  color: #fff;
+  box-shadow: 0 0 5px #00ff48, 0 0 25px #00ff48, 0 0 50px #00ff48, 0 0 100px #00ff48, 0 0 200px #00ff48;
 }
+
 /*Fin del formulario de la pestaña prueba*/
 /*Inicio de la pagina de tienda*/
-.TextoBoton{
-    padding: 5px;
-    color: #000000ab;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: larger;
-    margin: 5px  0px;
-    background: var(--border-color);
-    border-radius: 10px;
+/* line 444, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.TextoBoton {
+  padding: 5px;
+  color: #000000ab;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  margin: 5px  0px;
+  background: var(--border-color);
+  border-radius: 10px;
 }
 
-.imagenTienda{
-    width: 10rem;
-    height: 10rem;
-    border-radius: 25px;
-    background:var(--border-color);
- }   
+/* line 454, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.imagenTienda {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 25px;
+  background: var(--border-color);
+}
 
- .boton{
-    background-color: rgb(0, 0, 0);
-    border-radius: 25px;
-    padding: 25px;
-    margin: 50px 0px;
-    box-shadow: 0 0 5px rgb(6, 239, 130)
-    0 0 25px rgb(6, 239, 130);
-    
+/* line 461, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.boton {
+  background-color: black;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 50px 0px;
+  box-shadow: 0 0 5px #06ef82 0 0 25px #06ef82;
 }
-.boton:hover{   
-                    
-        box-shadow: 0 0 5px rgb(0, 255, 72),
-        0 0 25px, 0 0 50px rgb(0, 255, 72),
-        0 0 100px rgb(0, 255, 72), 0 0 200px rgb(0, 255, 72);
+
+/* line 470, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.boton:hover {
+  box-shadow: 0 0 5px #00ff48, 0 0 25px, 0 0 50px #00ff48, 0 0 100px #00ff48, 0 0 200px #00ff48;
 }
+
+/* line 476, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 #tienda {
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    padding: 20px;
-    text-align: center;
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
 }
+
+/* line 482, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .pack {
-    background:var(--border-color);
-    border: 2px dashed #fff;
-    border-radius: 25px;
-    padding: 20px;
-    margin: 20px
+  background: var(--border-color);
+  border: 2px dashed #fff;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
 }
+
 /*Fin de la pagina de tienda*/
 /*Inicio Footer*/
-footer{
-    background:var(--border-color);
-    display: flex;
-    width: 100%;
-    background-color: #333;
-    color: #000000;
-    padding: 20px 0;
-    text-align: center;
-    
+/* line 491, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+footer {
+  background: var(--border-color);
+  display: flex;
+  width: 100%;
+  background-color: #333;
+  color: #000000;
+  padding: 20px 0;
+  text-align: center;
 }
+
 /*Contenido de la navegacion*/
-footer #mapa{
-    height: 100%;
-    width: 100%;
-    padding-top: 15px ;
-    padding-left:15px ;
-    padding-bottom:15px ;
-    padding-right: 15px;
-    border-radius: 30px;
-}
-.redes{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    justify-content: space-evenly;
-
-}
-.redes{
-    display:flex;
-    width: 100%;
-    font-size: 40px;
-    justify-content: space-evenly;
+/* line 502, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+footer #mapa {
+  height: 100%;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
 }
 
+/* line 511, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.redes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+/* line 519, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+.redes {
+  display: flex;
+  width: 100%;
+  font-size: 40px;
+  justify-content: space-evenly;
+}
+
+/* line 526, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .redes .facebook {
-    color: blue;
-    padding-top: 3px;
-    padding-bottom: 3px;
+  color: blue;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
+/* line 532, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .instagram {
-    color: #fff;
-    padding-top: 3px;
-    padding-bottom: 3px;
+  color: #fff;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
+/* line 538, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .whatsapp {
-    color: #04fb3e;
-    padding-top: 3px;
-    padding-bottom: 3px;
+  color: #04fb3e;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
+/* line 544, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .redes a:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 /**************************/
 /*Lo hacemos responsive*/
 /*Vista tablet*/
 /*768px hasta 1023px aproximadamente*/
+/* line 552, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-#mapa {
-    width: 100%;
-    height: 500px; 
-    border: none;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
+/* line 557, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+#mapa {
+  width: 100%;
+  height: 500px;
+  border: none;
+}
+
+/* line 562, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 567, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 nav ul li {
-    display: inline-block;
-    margin-right: 20px;
+  display: inline-block;
+  margin-right: 20px;
 }
+
+/* line 571, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
 a {
-    color: #070707;
-    text-decoration: none;
-    
+  color: #070707;
+  text-decoration: none;
 }
-@media (max-width:710px) {
-    .card{
-        width: 100%;
-    }
+
+@media (max-width: 710px) {
+  /* line 577, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+  .card {
+    width: 100%;
+  }
 }
+
 /* Estilos responsivos para pantallas pequeñas */
 @media (min-width: 492px) {
-    /* Muestra el footer cuando el ancho de la pantalla sea mayor o igual a 576px */
-    
-    #contenedorInicioPrincipalSegundo #fotos{
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        flex-wrap: wrap;  
-    
-    } 
-    footer {
-        display: block;
-    }
-    .redes{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        text-align: center;
-        justify-content: space-evenly;
-    
-    }
-   
-}
-@media (max-width: 400px) {
-    #titulo {
-        display: none; /* Oculta el elemento con id "titulo" */
-    }
-    .subtitulo1{
-        display: none;
-    }
-    .imagenTienda{
-        width: auto;
-        height: 200px;
-    }
-    #legend{
-        display: none;
-    }
+  /* Muestra el footer cuando el ancho de la pantalla sea mayor o igual a 576px */
+  /* line 585, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+  #contenedorInicioPrincipalSegundo #fotos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  /* line 594, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+  footer {
+    display: block;
+  }
+  /* line 597, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+  .redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+  }
 }
 
+@media (max-width: 400px) {
+  /* line 608, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+  #titulo {
+    display: none;
+    /* Oculta el elemento con id "titulo" */
+  }
+  /* line 611, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+  .subtitulo1 {
+    display: none;
+  }
+  /* line 614, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+  .imagenTienda {
+    width: auto;
+    height: 200px;
+  }
+  /* line 618, E:/DESARROLLO WEB/3ºer Pre-entrega/sass/estilo.scss */
+  #legend {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

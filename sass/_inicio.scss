@@ -1,0 +1,97 @@
+/*Primer seccion Imagen del Inicio*/
+
+.contenedorInicioPrincipal {
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    width: 100%;
+  
+    a .imagenTienda {
+      display: inline-flex;
+      border-radius: 50px;
+      height: 400px;
+      width: 80%;
+      background: $color-border;
+      border-style: double;
+    }
+  
+    .subtitulo1 {
+      width: 400px;
+      background-color: #a4a4a484;
+      font-family: $font-stack;
+      font-size: 25px;
+      border-radius: 20%;
+      margin: auto;
+      padding: 10px 10px;
+    }
+  }
+  
+  .imagenTienda:hover {
+    padding: 15px 15px;
+    border-style: double;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0,6s ease 0s;
+  }
+  
+  /*Fin Primer Imagen del Inicio*/
+  /*segunda seccion de imagenes del Inicio*/
+  
+  #contenedorInicioPrincipalSegundo {
+    display: inline-flex;
+    width: 100%;
+    height: max-content;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+    #fotos {
+      width: 650px;
+      height: auto;
+      display: inline-flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    .imagenInicio {
+      width: 180px;
+      height: 150px;
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      border-radius: 50px;
+    }
+  }
+  
+  .imagenInicio:hover {
+    padding: 15px 15px;
+    border-style: groove;
+    background: $color-border;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0,6s ease 0s;
+  }
+  
+  #contenedorInicioPrincipalSegundo {
+    .subtitulo {
+      background-color: #a4a4a484;
+      font-family: $font-stack;
+      font-size: 15px;
+      border-radius: 20%;
+      margin: auto;
+      padding: 10px 10px;
+      justify-content: center;
+    }
+  
+    .subtitulo2 {
+      background-color: #a4a4a484;
+      font-family: $font-stack;
+      font-size: 15px;
+      border-radius: 20%;
+      margin: auto;
+      padding: 10px 10px;
+    }
+  }
+  
+  /*fin de segunda seccion de imagenes del Inicio*/
+  /*Fin de pagina de inicio*/

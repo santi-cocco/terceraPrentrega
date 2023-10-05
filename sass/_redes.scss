@@ -1,0 +1,36 @@
+/*Contenido de la navegacion*/
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    font-size: 40px;
+    justify-content: space-evenly;
+  
+    .facebook {
+      color: blue;
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+  
+  
+  .instagram {
+    color: #fff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  
+  .whatsapp {
+    color: #04fb3e;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  
+  .redes a:hover {
+    transform: scale(1.5);
+  }
+}

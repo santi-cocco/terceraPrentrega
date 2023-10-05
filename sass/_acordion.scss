@@ -1,0 +1,44 @@
+/*Listas desordenada del acordion de "nosotros"*/
+.listas {
+    border: 3px solid;
+    border-radius: 20px;
+    background: $color-border;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #225522;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.accordion-item {
+    background-color: #115511;
+    border-radius: 5px;
+    margin: 10px 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: $color-border;
+}
+
+.accordion-button {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    background: $color-border;
+}
+
+.accordion-collapse {
+    background-color: #07070770;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/*Fin de la pagina de "nosotros"*/

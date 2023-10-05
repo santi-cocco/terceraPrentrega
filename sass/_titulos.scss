@@ -1,0 +1,45 @@
+/* titulo*/
+
+#titulo {
+    font-family: $font-stack;
+    text-align: center;
+    background: $color-border;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    background-color: #000000;
+}
+
+:root {
+    --border-color: linear-gradient(to right, green 0%, yellow 100%);
+}
+
+/*Subtitulo Actividades*/
+
+.subtituloPrincipal {
+    background-color: rgba(240, 255, 255, 0.785);
+    text-align: center;
+    color: #000000;
+    text-decoration: underline;
+    padding: 10px 10px;
+    border: #000000;
+    border-style: groove;
+    border-radius: 50px;
+}
+
+/* Estilos del título */
+
+.card-title {
+    background-color: #00000083;
+    color: #fff !important;
+    padding: none;
+    border: #030303 3px groove;
+    font-size: 24px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+

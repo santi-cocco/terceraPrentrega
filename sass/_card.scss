@@ -1,0 +1,72 @@
+/* Estilos de la galería de tarjetas */
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    justify-items: center;
+}
+
+.maincontainer {
+    position: relative;
+    width: 250px;
+    height: 320px;
+    display: flex;
+}
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+
+    &:hover {
+        transform: rotateY(180deg);
+    }
+}
+
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: $color-border;
+    color: #333;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: $color-border;
+    color: #333;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* Texto de la tarjeta */
+.actividadesTexto {
+    font-family: $font-text;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+/* Estilos de las tarjetas al hacer hover */
+
+.card:hover {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: all 1s ease;
+}

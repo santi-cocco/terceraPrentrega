@@ -1,0 +1,35 @@
+/*Formulario de la pestaña prueba*/
+
+.form-group {
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: $font-form-group;
+    color: #fff;
+    background: $color-border;
+  }
+  
+  #legend {
+    border-style: double;
+    font-size: 40px;
+    background: $color-border;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .form-label {
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 10px;
+  }
+  
+  .form-input {
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+  }

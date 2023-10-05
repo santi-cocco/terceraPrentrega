@@ -1,0 +1,31 @@
+#tabla {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-color: rgba(9, 248, 37, 0.725);
+    border-style: ridge;
+    background-color: rgba(0, 0, 0, 0.574);
+    font-style: italic;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+/*Estilos de celdas*/
+
+th {
+    background-color: rgba(11, 238, 61, 0.356);
+    padding: 1rem;
+    border-radius: 15px;
+    width: 10%;
+    max-width: 15%;
+}
+
+.hora {
+    background-color: rgba(51, 68, 68, 0.325);
+    width: 10%;
+    max-width: 15%;
+}
+
+/*Fin de estilos de celdas*/
